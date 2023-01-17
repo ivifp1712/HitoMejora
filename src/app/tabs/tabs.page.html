@@ -1,20 +1,26 @@
 <ion-tabs>
+  <ion-tab-bar slot="bottom" >
+      <ion-tab-button tab="tab1">
+            <ion-icon name="home" size="small"></ion-icon>
+            <ion-label>Inicio</ion-label>
+          </ion-tab-button>
+      <ion-tab-button tab="tab2" class="ion-hide-md-up">
+        <ion-icon name="search" size="small"></ion-icon>
+        <ion-label>Búsqueda</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="tab2" class="ion-hide-md-up">
+        <ion-icon name="play" size="small"></ion-icon>
+        <ion-label>Próximamente</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="tab2">
+            <ion-icon name="download" size="small"></ion-icon>
+            <ion-label>Descargas</ion-label>
+          </ion-tab-button>
 
-  <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="tab1">
-      <ion-icon name="triangle"></ion-icon>
-      <ion-label>Tab 1</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button tab="tab2">
-      <ion-icon name="ellipse"></ion-icon>
-      <ion-label>Tab 2</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button tab="tab3">
-      <ion-icon name="square"></ion-icon>
-      <ion-label>Tab 3</ion-label>
-    </ion-tab-button>
-  </ion-tab-bar>
-
+          <ion-tab-button tab="tab3">
+            <ion-icon name="menu" size="small"></ion-icon>
+            <ion-label>Más</ion-label>
+          </ion-tab-button>
+</ion-tab-bar>
 </ion-tabs>

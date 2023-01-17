@@ -1,0 +1,29 @@
+.logo{
+width: 5em !important;
+}
+
+.toolbar{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+}
+
+.toolbar > li{
+    list-style: none;
+    margin: 0.4em;
+    font-size: small;
+}
+
+.ibusqueda{
+    position: absolute !important;
+    right: 1%;
+    top: 0.7em;
+}
+.tcover{
+    margin-top: 0% !important;
+    margin-bottom: 0.1em !important;
+    font-size: small;
+    font-weight: bold;
+}
